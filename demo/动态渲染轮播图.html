@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>轮播图demo</title>
+
+    <!-- Bootstrap -->
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .pc_imgBox{
+            display: block;
+            width: 100%;
+            height: 400px;
+           background: url("../images/slide_01_2000x410.jpg")no-repeat center/cover;
+        }
+        .m_imgBox{
+            display: block;
+            width: 100%;
+        }
+        .m_imgBox img{
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel wjs_banner">
+    <!-- Indicators -->
+    <ol class="carousel-indicators"></ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox"></div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+
+
+<script src="../lib/jquery/jquery.min.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
